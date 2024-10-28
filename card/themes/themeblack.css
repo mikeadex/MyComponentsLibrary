@@ -1,1 +1,300 @@
 @import url("common.css");
+
+* {
+  background-color: rgb(28, 28, 28);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(28, 28, 28);
+  color: #fff;
+  border: none;
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.about {
+  background-color: #000;
+  color: #fff;
+}
+
+.head {
+  margin: 70px auto 0;
+  width: 100px;
+  height: 100px;
+  /* margin: 50px auto; */
+}
+
+.head img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.about {
+  margin-top: 10px;
+}
+
+.info {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.pd-15 {
+  margin-top: 15px;
+}
+
+.pd-30 {
+  margin-top: 30px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(28, 28, 28);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1); /* subtle shadow for a card-like effect */
+  max-width: 600px; /* Control max width of the card */
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.desc {
+  flex-grow: 1;
+  padding: 0 15px; /* Adjust padding for spacing */
+}
+
+.desc .strong {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.desc .mg-n {
+  font-size: 0.9rem;
+  color: rgb(124, 127, 130);
+  margin: 5px 0 0;
+}
+
+.cta button {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: rgb(28, 28, 28);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+  background-color: #f0f0f0;
+}
+
+.media {
+  /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+  background-color: rgb(28, 28, 28);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+  max-width: 600px; /* Control max width of the card */
+}
+
+.vlabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vlinks {
+  color: rgb(124, 127, 130);
+}
+
+.embed-video {
+  width: 100%;
+  height: 300px;
+
+  /* padding: 10px; */
+
+  /* overflow: hidden; */
+}
+
+/* Slider */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-out;
+}
+
+.slide {
+  min-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: background-color 0.3s ease;
+  outline: none;
+  z-index: 10;
+}
+
+.prev {
+  left: 15px;
+}
+
+.next {
+  right: 15px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Socials  */
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: rgb(28, 28, 28);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+  max-width: 600px;
+}
+
+.social-item {
+  /* max-width: 250px; */
+  /* width: 100%; */
+  padding: 35px;
+  /* margin: 10px 20px; */
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(28, 28, 28);
+  color: rgb(124, 127, 130);
+  font-size: 1.6rem;
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+  flex-grow: 1;
+  text-align: center;
+}
+
+.subscription-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 600px;
+  background-color: rgb(28, 28, 28);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.email-input {
+  flex: 3;
+  padding: 20px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  height: 45px;
+}
+
+.subscribe-button {
+  flex: 1;
+  padding: 15px;
+  font-size: 1rem;
+  /* background-color: #007bff;
+    color: #fff; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #f0f0f0;
+}

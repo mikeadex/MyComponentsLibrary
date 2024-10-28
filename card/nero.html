@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nero - Digital Business card Theme</title>
-    <link rel="stylesheet" type="text/css" href="themes/themewhite.css" />
+    <link rel="stylesheet" type="text/css" href="themes/themeblack.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -185,35 +185,15 @@
             </div>
         </div>
       </section>
+
+      <section>
+        <div class="subscription-section">
+          
+                <input class="email-input" type="email" placeholder="Subscribe to our newsletter" />
+              <button class="subscribe-button">Subscribe Now</button>
+        </div>
+      </section>
     </div>
-    <script>
-        let currentSlide = 0;
-
-        const slides = document.querySelector('.slides');
-
-        function nextSlide() {
-            currentSlide = (currentSlide + 1) % slides.children.length;
-            updateSlidePosition();
-        }
-
-        function prevSlide() {
-            currentSlide = (currentSlide - 1 + slides.children.length) % slides.children.length;
-            updateSlidePosition();
-        }
-
-        function updateSlidePosition() {
-            slides.style.transform = `translateX(-${currentSlide * 100}%)`;
-        }
-
-        let autoSlide = setInterval(nextSlide, 3000);
-
-        const slider = document.querySelector('.slider');
-        slider.addEventListener('mouseenter', () => {
-            clearInterval(autoSlide);
-        });
-        slider.addEventListener('mouseleave', () => {
-            autoSlide = setInterval(nextSlide, 3000);
-        });
-    </script>
+    <script src="themes/script.js"></script>
   </body>
 </html>
