@@ -81,6 +81,10 @@ button {
   max-width: 600px; /* Control max width of the card */
 }
 
+.wb {
+  color: rgb(124, 127, 130);
+}
+
 .image {
   width: 70px;
   height: 70px;
@@ -273,12 +277,13 @@ button {
   flex: 3;
   padding: 20px;
   font-size: 1rem;
-  border: 1px solid #ddd;
+  border: 1px solid green;
   border-radius: 5px;
   outline: none;
   width: 100%;
   box-sizing: border-box;
   height: 45px;
+  color: rgb(124, 127, 130);
 }
 
 .subscribe-button {
