@@ -1,12 +1,17 @@
 @import url("common.css");
-/* .main {
-  margin: 0 auto;
-} */
 
-/* .about {
-  background-color: #fff;
-  color: #000;
-} */
+body {
+  background-color: rgb(28, 28, 28);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(28, 28, 28);
+  color: #fff;
+  border: none;
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
 
 .bg {
   /* background-image: url("../../assets/images/bg-white.jpg"); */
@@ -57,12 +62,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fafafa;
+  background-color: rgb(28, 28, 28);
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* subtle shadow for a card-like effect */
-  max-width: 600px; /* Control max width of the card */
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+  max-width: 600px;
+}
+
+.wb {
+  color: rgb(124, 127, 130);
 }
 
 .image {
@@ -80,19 +89,19 @@
 
 .desc {
   flex-grow: 1;
-  padding: 0 15px; /* Adjust padding for spacing */
+  padding: 0 15px;
 }
 
 .desc .strong {
   font-size: 1rem;
   font-weight: bold;
-  color: #333;
+  color: rgb(255, 255, 255);
   margin: 0;
 }
 
 .desc .mg-n {
   font-size: 0.9rem;
-  color: #666;
+  color: rgb(124, 127, 130);
   margin: 5px 0 0;
 }
 
@@ -100,7 +109,7 @@
   padding: 8px 16px;
   font-size: 0.9rem;
   font-weight: bold;
-  background-color: #ffffff;
+  background-color: rgb(28, 28, 28);
   border: 1px solid #ddd;
   border-radius: 8px;
   cursor: pointer;
@@ -109,18 +118,30 @@
 
 .cta button:hover {
   background-color: #f0f0f0;
+  color: rgb(28, 28, 28);
 }
 
 .media {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-  background-color: #fafafa;
+  background-color: rgb(28, 28, 28);
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* subtle shadow for a card-like effect */
-  max-width: 600px; /* Control max width of the card */
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+  max-width: 600px;
+}
+
+.vlabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vlabel .title p {
+  color: rgb(255, 255, 255);
+}
+
+.vlinks {
+  color: rgb(124, 127, 130);
 }
 /* Slider */
 .container {
@@ -135,7 +156,7 @@
   height: 400px;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* subtle shadow for a card-like effect */
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
 }
 
 .slides {
@@ -202,21 +223,15 @@
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); */
-  max-width: 600px; /* Control max width of the card */
+  max-width: 600px;
 }
 
 .social-item {
-  /* max-width: 250px; */
-  /* width: 100%; */
   padding: 20px;
-  /* margin: 10px 20px; */
   align-items: center;
   justify-content: center;
-  /* background-color: #fafafa; */
   font-size: 1.6rem;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  /* flex-grow: 1; */
   text-align: center;
   border-radius: 10px;
 }
@@ -224,33 +239,33 @@
 .subscription-section {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   max-width: 600px;
-  background-color: #fafafa;
+  background-color: rgb(28, 28, 28);
   border-radius: 10px;
   padding: 20px;
   margin: 10px 0 100px 0;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* subtle shadow for a card-like effect */
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
 }
 
 .email-input {
   flex: 3;
   padding: 20px;
   font-size: 1rem;
-  border: 1px solid #ddd;
+  border: 1px solid green;
   border-radius: 5px;
   outline: none;
   width: 100%;
   box-sizing: border-box;
   height: 45px;
+  color: rgb(124, 127, 130);
 }
 
 .subscribe-button {
   flex: 1;
   padding: 15px;
   font-size: 1rem;
-  /* background-color: #007bff;
-  color: #fff; */
   border: none;
   border-radius: 5px;
   cursor: pointer;

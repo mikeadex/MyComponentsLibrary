@@ -77,8 +77,8 @@ button {
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1); /* subtle shadow for a card-like effect */
-  max-width: 600px; /* Control max width of the card */
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+  max-width: 600px;
 }
 
 .wb {
@@ -100,7 +100,7 @@ button {
 
 .desc {
   flex-grow: 1;
-  padding: 0 15px; /* Adjust padding for spacing */
+  padding: 0 15px;
 }
 
 .desc .strong {
@@ -129,18 +129,16 @@ button {
 
 .cta button:hover {
   background-color: #f0f0f0;
+  color: #000;
 }
 
 .media {
-  /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
   background-color: rgb(28, 28, 28);
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
   box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
-  max-width: 600px; /* Control max width of the card */
+  max-width: 600px;
 }
 
 .vlabel {
@@ -156,10 +154,6 @@ button {
 .embed-video {
   width: 100%;
   height: 300px;
-
-  /* padding: 10px; */
-
-  /* overflow: hidden; */
 }
 
 /* Slider */
@@ -247,10 +241,7 @@ button {
 }
 
 .social-item {
-  /* max-width: 250px; */
-  /* width: 100%; */
   padding: 35px;
-  /* margin: 10px 20px; */
   align-items: center;
   justify-content: center;
   background-color: rgb(28, 28, 28);
@@ -290,8 +281,6 @@ button {
   flex: 1;
   padding: 15px;
   font-size: 1rem;
-  /* background-color: #007bff;
-    color: #fff; */
   border: none;
   border-radius: 5px;
   cursor: pointer;
