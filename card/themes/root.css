@@ -1,0 +1,59 @@
+:root {
+  /* Color */
+  --bg-col: #f0f9ff;
+  --bg-col2: #fafafa;
+  --bg-col3: #d9d9d9;
+  --bg-col4: #f0f0f0;
+  --bg-col5: #ffffff;
+  --bg-col6: #e9ecef;
+  --bg-blue: #0b87ec;
+  --bg-lightblue: #eff8ff;
+  --bg-green: #28a745;
+  --col: #333;
+  --col2: #495057;
+  --p-col: #667;
+  --a-col: #007bff;
+  --black: #1c1c1c;
+  --white-1: #fcfcfd;
+  --dark-white: #adb5bd;
+  --dark-gray: #343a40;
+  --v-dark-gray: #212529;
+
+  /*  */
+  --font-header: "Lato", "Playfair Display", sans-serif;
+  --font-body: "DM Sans", "Merriweather", Roboto, sans-serif;
+
+  /* Font Weight  */
+  --fw-100: 100;
+  --fw-200: 200;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+  --fw-900: 900;
+
+  /* Font Size */
+  --fs-1: 1rem;
+  --fs-2: 1.2rem;
+  --fs-3: 1.5rem;
+  --fs-4: 1.8rem;
+  --fs-5: 2rem;
+  --fs-6: 2.5rem;
+  --fs-7: 3rem;
+  --fs-8: 3.5rem;
+  --fs-9: 4rem;
+  --fs-10: 4.5rem;
+  --fs-11: 5rem;
+  --fs-12: 5.5rem;
+  --fs-13: 6rem;
+  --fs-14: 6.5rem;
+  --fs-15: 7rem;
+  --fs-16: 7.5rem;
+  --fs-17: 8rem;
+  --fs-18: 8.5rem;
+  --fs-19: 9rem;
+
+  /* Shadows */
+}
