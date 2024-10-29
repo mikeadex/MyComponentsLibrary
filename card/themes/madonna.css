@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif, lato;
+  font-family: Lato, "Playfair Display", serif, lato;
 }
 
 h1 {
@@ -109,7 +109,7 @@ button {
 
 .about {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
   padding: 45px;
@@ -120,9 +120,10 @@ button {
 .name h1 {
   font-size: 6.5rem;
   color: #fff;
-  text-align: center;
   text-transform: uppercase;
   margin-bottom: -60px;
+  max-width: 100%;
+  flex-grow: 1;
 }
 
 .name h2 {
@@ -149,6 +150,20 @@ button {
 .contact {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.contact .label {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Playwrite GB S", sans-serif;
+}
+
+.contact .items {
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
