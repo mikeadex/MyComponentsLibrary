@@ -1,277 +1,103 @@
 @import url("common.css");
 
 body {
-  background-color: rgb(28, 28, 28);
+  background-color: var(--black);
 }
 
 button {
-  padding: 10px 20px;
-  background-color: rgb(28, 28, 28);
-  color: #fff;
-  border: none;
-  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
+  background-color: var(--black);
+  color: var(--bg-col5);
+  box-shadow: var(--white-shadow);
 }
 
 .bg {
-  /* background-image: url("../../assets/images/bg-white.jpg"); */
   padding: 30px 0;
   background-color: yellow;
   margin: 0 auto;
-  /* border-radius: 0 0 100px 100px; */
-}
-
-.head {
-  /* margin: 0 auto; */
-  width: 100px;
-  height: 100px;
-}
-
-.head img {
-  width: 100%;
-  height: 100%;
-  border-radius: 100%;
-  object-fit: cover;
-}
-
-.about {
-  margin-top: 10px;
-}
-
-.info {
-  text-align: center;
-  padding: 0 30px;
-}
-
-.pd-15 {
-  margin-top: 15px;
-}
-
-.pd-30 {
-  margin-top: 30px;
-}
-
-.links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
 }
 
 .service {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(28, 28, 28);
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
-  max-width: 600px;
+  background-color: var(--black);
+  box-shadow: var(--white-shadow);
 }
 
 .wb {
-  color: rgb(124, 127, 130);
-}
-
-.image {
-  width: 70px;
-  height: 70px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.desc {
-  flex-grow: 1;
-  padding: 0 15px;
+  color: var(--white-2);
 }
 
 .desc .strong {
-  font-size: 1rem;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  margin: 0;
+  color: var(--bg-col5);
 }
 
 .desc .mg-n {
-  font-size: 0.9rem;
-  color: rgb(124, 127, 130);
+  font-size: var(--fs-1);
+  color: var(--white-2);
   margin: 5px 0 0;
 }
 
 .cta button {
-  padding: 8px 16px;
-  font-size: 0.9rem;
+  font-size: var(--fs-1);
   font-weight: bold;
-  background-color: rgb(28, 28, 28);
+  background-color: var(--black);
   border: 1px solid #ddd;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .cta button:hover {
-  background-color: #f0f0f0;
-  color: rgb(28, 28, 28);
+  background-color: var(--bg-col4);
+  color: var(--black);
 }
 
 .media {
-  background-color: rgb(28, 28, 28);
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
-  max-width: 600px;
-}
-
-.vlabel {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: var(--black);
+  box-shadow: var(--white-shadow);
 }
 
 .vlabel .title p {
-  color: rgb(255, 255, 255);
+  color: var(--bg-col5);
 }
 
 .vlinks {
-  color: rgb(124, 127, 130);
+  color: var(--white-2);
 }
 /* Slider */
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .slider {
-  position: relative;
-  width: 100%;
-  max-width: 600px;
-  height: 400px;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
-}
-
-.slides {
-  display: flex;
-  transition: transform 0.5s ease-out;
-}
-
-.slide {
-  min-width: 100%;
-  height: auto;
-  transition: transform 0.5s ease-in;
-}
-
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 10px;
+  box-shadow: var(--white-shadow);
 }
 
 .prev,
 .next {
-  position: absolute;
-  top: 50%;
-  width: 40px;
-  height: 40px;
   background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transform: translateY(-50%);
-  transition: background-color 0.3s ease;
-  outline: none;
-  z-index: 10;
-}
-
-.prev {
-  left: 15px;
-}
-
-.next {
-  right: 15px;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--bg-col5);
 }
 
 /* Socials  */
 .socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
   background-color: none;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  max-width: 600px;
 }
 
 .social-item {
   padding: 20px;
   align-items: center;
   justify-content: center;
-  font-size: 1.6rem;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  font-size: var(--fs-3);
+  box-shadow: var(--black-shadow);
   text-align: center;
   border-radius: 10px;
 }
 
 .subscription-section {
-  display: flex;
-  align-items: center;
   justify-content: center;
   gap: 10px;
-  max-width: 600px;
-  background-color: rgb(28, 28, 28);
-  border-radius: 10px;
-  padding: 20px;
+  background-color: var(--black);
   margin: 10px 0 100px 0;
-  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+  box-shadow: var(--white-shadow);
 }
 
 .email-input {
-  flex: 3;
-  padding: 20px;
-  font-size: 1rem;
+  font-size: var(--fs-1);
   border: 1px solid green;
-  border-radius: 5px;
-  outline: none;
-  width: 100%;
-  box-sizing: border-box;
-  height: 45px;
-  color: rgb(124, 127, 130);
-}
-
-.subscribe-button {
-  flex: 1;
-  padding: 15px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  outline: none;
-  width: 100%;
-  transition: background-color 0.3s ease;
+  color: var(--white-2);
 }
 
 .call {

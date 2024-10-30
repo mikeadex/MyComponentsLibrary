@@ -89,7 +89,7 @@ button {
   padding: 10px 20px;
   background-color: var(--bg-col5);
   border: none;
-  box-shadow: var(--black-shadow);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
 
@@ -115,8 +115,9 @@ button {
   padding: 10px 15px;
   border-radius: 5px;
   color: var(--v-dark-gray);
-  box-shadow: var(--black-shadow);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
+
 
 .head {
   margin: 70px auto 0;
@@ -160,10 +161,12 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--bg-col2);
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  max-width: 600px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* subtle shadow for a card-like effect */
+  max-width: 600px; /* Control max width of the card */
 }
 
 .image {
@@ -181,7 +184,7 @@ button {
 
 .desc {
   flex-grow: 1;
-  padding: 0 15px; 
+  padding: 0 15px; /* Adjust padding for spacing */
 }
 
 .desc .strong {
@@ -201,20 +204,27 @@ button {
   padding: 8px 16px;
   font-size: var(--fs-1);
   font-weight: var(--fw-700);
+  background-color: var(--bg-col-5);
   border: 1px solid #ddd;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
+.cta button:hover {
+  background-color: var(--bg-col4);
+}
+
 .media {
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
+  background-color: var(--bg-col2);
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  box-shadow: var(--black-shadow);
-  max-width: 600px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); 
+  max-width: 600px; 
 }
 
 .vlabel {
@@ -241,6 +251,7 @@ button {
   height: 400px;
   overflow: hidden;
   border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); 
 }
 
 .slides {
@@ -268,6 +279,8 @@ button {
   top: 50%;
   width: 40px;
   height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--bg-col5);
   border: none;
   border-radius: 50%;
   font-size: 24px;
@@ -294,42 +307,24 @@ button {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Socials  */
-.socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  max-width: 600px;
-}
-
-.social-item {
-  padding: 35px;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.6rem;
-  flex-grow: 1;
-  text-align: center;
-}
 
 .subscription-section {
   display: flex;
   align-items: center;
   gap: 10px;
   max-width: 600px;
+  background-color: var(--bg-col2);
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* subtle shadow for a card-like effect */
 }
 
 .email-input {
   flex: 3;
   padding: 20px;
   font-size: var(--fs-1);
+  border: 1px solid #ddd;
   border-radius: 5px;
   outline: none;
   width: 100%;
@@ -341,6 +336,7 @@ button {
   flex: 1;
   padding: 15px;
   font-size: var(--fs-1);
+  
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -349,6 +345,9 @@ button {
   transition: background-color 0.3s ease;
 }
 
+.subscribe-button:hover {
+  background-color: var(--bg-col4);
+}
 
 
 @media (min-width: 768px) {
