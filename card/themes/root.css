@@ -60,4 +60,6 @@
   /* Shadows */
   --black-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
   --white-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.1);
+  --sharp: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  --sharp-white: 0px 1px 1px 1px rgba(225, 217, 220, 0.2);
 }

@@ -1,0 +1,161 @@
+@import url("common.css");
+/* .main {
+  margin: 0 auto;
+} */
+a {
+  text-decoration: none;
+  color: var(--col);
+  font-size: var(--fs-2);
+  border-radius: 5px;
+}
+
+a span {
+  color: var(--bg-blue);
+}
+
+button:hover {
+  background-color: var(--black);
+  color: var(--white-1);
+  transition: 0.7s;
+}
+
+p.gray {
+  text-align: right;
+  margin-top: -10px;
+  color: var(--dark-white);
+}
+
+p.center {
+  text-align: center;
+  color: var(--dark-white);
+}
+
+body {
+  background-color: var(--black);
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+}
+.main {
+  background-color: var(--white);
+  /* box-shadow: var(--white-shadow); */
+  margin-top: none;
+}
+
+.bg {
+  background-color: var(--dark-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* background-color: var(--white-1); */
+}
+
+.auth {
+}
+
+.head {
+  width: 100%;
+  text-align: center;
+  padding: 0 0;
+  color: var(--bg-col-5);
+}
+
+.head h1 {
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  color: var(--black);
+}
+
+.icon {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.head-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px 20px 35px;
+}
+
+.form-wrap {
+  background-color: var(--black);
+  border-radius: 50px 0 0 0;
+  padding: 70px 20px 20px 20px;
+  /* margin: 0 0 0 10px; */
+}
+
+.wrap {
+}
+.close {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form-elements {
+}
+
+.input-group {
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.input-group label {
+  color: white;
+  display: block;
+  margin: 5px 0;
+  font-size: var(--fs-2);
+  font-weight: var(--fw-500);
+}
+
+.input-group input {
+  background-color: var(--black);
+  color: var(--white-2);
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  box-shadow: var(--sharp-white);
+  font-size: var(--fs-2);
+}
+
+.vlarge {
+  padding: 20px 40px;
+  width: 100%;
+  box-shadow: var(--black-shadow);
+  font-size: 1.5rem;
+  background-color: var(--white-1);
+  color: var(--black);
+}
+
+.large {
+  padding: 10px 15px;
+  width: 100%;
+  box-shadow: var(--black-shadow);
+  font-size: 1.5rem;
+  background-color: var(--white-1);
+  color: var(--black);
+}
+
+.social-signup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.google {
+  background-color: #db4437;
+  color: white;
+}
+
+/* Dark theme */
